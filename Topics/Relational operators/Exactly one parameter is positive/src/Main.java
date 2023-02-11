@@ -28,9 +28,9 @@ class Main {
         int secondNumber = scanner.nextInt();
         int thirdNumber = scanner.nextInt();
 
-        if (firstNumber > 0 && secondNumber <= 0 && thirdNumber <= 0) System.out.println(true);
-        else if (secondNumber > 0 && firstNumber <= 0 && thirdNumber <= 0) System.out.println(true);
-        else if (thirdNumber > 0 && firstNumber <= 0 && secondNumber <= 0) System.out.println(true);
+        if(firstNumber>0 && secondNumber<=0 && thirdNumber <=0) System.out.println(true);
+        else if(secondNumber >0 && firstNumber <= 0 && thirdNumber <=0) System.out.println(true);
+        else if(thirdNumber > 0 && firstNumber<=0 && secondNumber <= 0) System.out.println(true);
         else System.out.println(false);
 
     }
