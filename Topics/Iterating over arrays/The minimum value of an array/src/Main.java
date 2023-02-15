@@ -36,6 +36,7 @@ Sample Output:
             }
         }
 
+
         System.out.println(min);
     }
 }
