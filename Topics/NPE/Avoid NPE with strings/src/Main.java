@@ -14,8 +14,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String str1 = scanner.nextLine();
-        String str2 = scanner.nextLine();
+            String str1 = scanner.nextLine();
+            String str2 = scanner.nextLine();
         str1 = "null".equalsIgnoreCase(str1) ? null : str1;
         str2 = "null".equalsIgnoreCase(str2) ? null : str2;
 
